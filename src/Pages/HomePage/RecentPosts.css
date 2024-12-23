@@ -1,0 +1,270 @@
+/* Style the entire recent Posts section */
+.recent-posts {
+    padding: 50px 0;
+    /* Space at top and bottom */
+    text-align: left;
+    /* Center the content */
+    background-color: transparent;
+    /* left: 80%; */
+}
+
+/* Create the horizontal line with the text centered */
+.recent-posts-header {
+    position: relative;
+    display: inline-block;
+    width: 85%;
+    text-align: left;
+    /* height: 90%; */
+    /* align-items: center; */
+    left: -2%;
+}
+
+.recent-posts-header span {
+    position: relative;
+    z-index: 1;
+    /* top: -50px; */
+    /* Position the text slightly above the line */
+    background-color: #fff;
+    /* Background color to cover the line behind the text */
+    padding: 5px 50px;
+    /* Add some padding for the text */
+    font-size: 24px;
+    font-weight: bold;
+    color: #2138ff;
+    /* Text color */
+    border-radius: 50px;
+    left: 12%;
+}
+
+.recent-posts-header::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    width: 100%;
+    height: 1px;
+    /* Thickness of the line */
+    background-color: #202fff;
+    /* Line color */
+    transform: translateY(-50%);
+    /* Center the line vertically */
+    z-index: 0;
+}
+
+/* Style for the container holding all recent posts */
+/* .posts-container {
+    display: grid;
+    gap: 20px;
+    padding: 0px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+} */
+
+/* Individual recent post styling 
+ .recent-post {
+    /* background-color: #1a1a1a; */
+/* Dark background for each post
+    padding: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* transition: transform 0.3s ease-in-out; */
+
+
+.recent-post-image {
+    width: 100%;
+    /* Make the image responsive */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Info below the image */
+.recent-post-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+/* Styling for the post number and title */
+.recent-posts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12rem;
+    width: 40%;
+    /* Make the container span the full width */
+    max-width: 1200px;
+    /* Set a max width if needed */
+    margin: 0 auto;
+    /* Center the container */
+    padding: 20px;
+    transform: translateX(-18rem);
+    /* justify-content: start; */
+}
+
+/* Style for the container holding all recent posts */
+.recent-posts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Grid layout with responsive columns */
+    gap: 40px;
+    padding: 50px;
+    width: 100%;
+    max-width: 1200px;
+    /* Match the width of the header and content area */
+    margin: 0 auto;
+    /* Ensure the grid is centered */
+}
+
+/* Individual recent post styling */
+.recent-post {
+    background-color: #1403ff;
+    /* Dark background for each post */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 14px rgb(255 255 255 / 97%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    width: 15rem;
+}
+
+.recent-post:hover {
+    transform: translateY(-10px);
+    /* Hover effect to lift the post */
+    cursor: pointer;
+}
+
+.recent-post-image {
+    width: 100%;
+    /* Make the image responsive */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Info below the image */
+.recent-post-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+/* Styling for the post number and title */
+.post-number {
+    font-size: 35px;
+    font-weight: bold;
+    color: #acacac;
+    /* Orange color for the number */
+}
+
+.post-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* Follow Me box styling */
+.follow-box {
+    margin-top: 47px;
+    flex-basis: 60%;
+    background-color: transparent;
+    border: 2px solid #e6e6e6;
+    border-radius: 12px;
+    padding: 56px 80px;
+    box-shadow: 0px 4px 12px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 19px;
+    max-width: 600px;
+}
+
+.recent-post-link {
+    text-decoration: none;
+}
+
+/* Instagram logo */
+.follow-box img {
+    width: 90px;
+    /* Slightly larger logo */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Username styling */
+.follow-box .username {
+    font-size: 20px;
+    /* Slightly larger font for emphasis */
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Follow button styling */
+.follow-box .follow-button {
+    padding: 12px 30px;
+    /* Larger button size */
+    background-color: #3897f0;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.follow-box .follow-button:hover {
+    background-color: #1c6dc1;
+    transform: translateY(-3px);
+}
+
+/* Additional text under the button */
+.follow-box .additional-text {
+    font-size: 16px;
+    /* Slightly larger text */
+    color: #999999;
+    margin-top: 10px;
+}
+
+
+/*Responsive adjustments */
+@media (max-width: 768px) {
+    .recent-posts-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .recent-posts-grid {
+        display: flex;
+        flex-direction: column;
+        left: 104%;
+        /* margin-left: 5px; */
+        position: relative;
+        width: 82%;
+    }
+
+    .follow-box {
+        position: relative;
+        left: 195%;
+        right: 50%;
+        width: 100%;
+        max-width: 400px;
+    }
+}

@@ -1,0 +1,13 @@
+.simple-footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    /* Light grey background */
+    font-size: 14px;
+    color: #000000;
+    /* Muted text color */
+    border-top: 1px solid #e6e6e6;
+    /* Subtle top border */
+    margin-top: 20px;
+    /* Space above footer */
+}

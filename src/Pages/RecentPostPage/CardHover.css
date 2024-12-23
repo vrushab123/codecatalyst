@@ -1,0 +1,90 @@
+.card-hover {
+    max-width: 800px;
+    margin: 20px auto;
+    height: auto;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 21px;
+    border: 1px solid #0008ff;
+    border-radius: 8px;
+    background-color: transparent;
+    box-shadow: 0 4px 11px 12px rgb(0 31 255);
+}
+
+.card-hover .main-heading {
+    color: #007bff;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.card-hover .preview-image {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.modern-form-html,
+.modern-form-css,
+.modern-form-js {
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    overflow-wrap: anywhere;
+    color: rgb(255 0 0);
+    background: rgb(47, 47, 47);
+    font-family: "Roboto Mono", monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+    height: 300px;
+    tab-size: 4;
+    hyphens: none;
+    overflow-y: auto;
+    position: relative;
+    margin: 0.5em 0px;
+    padding: 1.25em 1em;
+    /* border-radius: 13px; */
+}
+
+.section-heading {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 40px 0px;
+}
+
+.description {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin: 40px 0;
+}
+
+.code-box {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 20px;
+}
+
+.download-button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}

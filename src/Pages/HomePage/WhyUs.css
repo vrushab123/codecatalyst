@@ -1,0 +1,112 @@
+/* WHY US Section */
+.why-us {
+    padding: 60px 0;
+    background-color: transparent;
+    text-align: center;
+}
+
+/* .why-us-title {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #2138ff;
+} */
+
+.why-us-header {
+    position: relative;
+    display: inline-block;
+    width: 85%;
+    text-align: left;
+    left: -10%;
+}
+
+.why-us-header span {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    padding: 5px 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2138ff;
+    border-radius: 50px;
+    left: 12%;
+}
+
+.why-us-header::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    width: 100%;
+    height: 1px;
+    background-color: #202fff;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+
+.why-us-intro {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #8d8d8d;
+    width: 80%;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+/* Outer rectangle container for the cards */
+.why-us-container {
+    border: 2px solid #e6e6e6;
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 3px 8px 30px rgb(23, 27, 255);
+    background-color: transparent;
+}
+
+/* Grid for the cards */
+.why-us-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* Individual card styling */
+.why-us-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.why-us-card:hover {
+    transform: translateY(-5px);
+}
+
+.why-us-card-icon {
+    font-size: 48px;
+    color: #2138ff;
+    margin-bottom: 15px;
+}
+
+.why-us-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/*Responsive adjustments */
+@media (max-width: 768px) {
+    .why-us-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .why-us-container {
+        position: relative;
+        left: 14%;
+    }
+}

@@ -1,0 +1,51 @@
+/* ComponentCard.css */
+.component-card {
+    background-color: transparent;
+    box-shadow: 0 4px 8px 3px rgb(253 250 250);
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.component-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 26, 255, 0.986);
+}
+
+.component-image {
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.component-card h3 {
+    font-size: 1.5rem;
+    margin: 20px 0 10px;
+    color: #ffffff;
+}
+
+.component-card p {
+    font-size: 1rem;
+    color: #a5a5a5;
+    margin-bottom: 20px;
+}
+
+.view-details-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.view-details-button:hover {
+    background-color: #0056b3;
+}

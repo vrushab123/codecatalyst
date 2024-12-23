@@ -1,0 +1,17 @@
+/* App.css */
+
+/* Add some padding so content doesn't hide under the navbar */
+.main-content {
+  padding-top: 80px;
+  /* Adjust based on navbar height */
+}
+
+/* Basic styles for sections (optional) */
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+/* section:nth-child(even) {
+  background-color: #f9f9f9;
+} */

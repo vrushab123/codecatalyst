@@ -1,0 +1,52 @@
+/* ItemsPage.css */
+.items-page-header {
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.items-page-header h1 {
+    font-size: 2.5rem;
+    color: #fafafa;
+}
+
+.items-page-header p {
+    font-size: 1.1rem;
+    color: #0013f9;
+    /* max-width: 810px; */
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: rgb(255 255 255 / 90%);
+    padding: 5px 3rem;
+    box-shadow: 0 4px 15px 6px rgb(153 153 159 / 94%);
+}
+
+.components-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* Responsive columns */
+    gap: 75px;
+    /* Increase gap between cards */
+    justify-items: center;
+    /* Align cards to the top of the grid */
+    padding: 0 15px;
+    /* Add horizontal padding */
+    width: 85%;
+    /* Take up full width of container */
+    max-width: 1200px;
+    /* Optional: Limit max width for larger screens */
+    margin: 10rem auto;
+    /* Center grid horizontally */
+    margin-top: 30px;
+}
+
+/* Add responsive design for smaller screens */
+@media (max-width: 768px) {
+    .components-grid {
+        display: flex;
+        flex-direction: column;
+    }
+}

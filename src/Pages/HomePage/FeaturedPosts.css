@@ -1,0 +1,176 @@
+/* Style the entire Featured Posts section */
+.featured-posts {
+    padding: 80px 0;
+    /* Space at top and bottom */
+    text-align: center;
+    /* Center the content */
+    background-color: transparent;
+}
+
+/* Create the horizontal line with the text centered */
+.featured-posts-header {
+    position: relative;
+    display: inline-block;
+    width: 85%;
+    text-align: center;
+    /* height: 90%; */
+    /* align-items: center; */
+}
+
+.featured-posts-header span {
+    position: relative;
+    z-index: 1;
+    /* top: -50px; */
+    /* Position the text slightly above the line */
+    background-color: #fff;
+    /* Background color to cover the line behind the text */
+    padding: 5px 50px;
+    /* Add some padding for the text */
+    font-size: 24px;
+    font-weight: bold;
+    color: #2138ff;
+    /* Text color */
+    border-radius: 50px;
+}
+
+.featured-posts-header::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    /* Thickness of the line */
+    background-color: #202fff;
+    /* Line color */
+    transform: translateY(-50%);
+    /* Center the line vertically */
+    z-index: 0;
+}
+
+/* Style for the container holding all featured posts */
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* Grid layout with responsive columns */
+    gap: 20px;
+    padding: 50px;
+}
+
+/* Individual featured post styling */
+.featured-post {
+    /* background-color: #1a1a1a; */
+    /* Dark background for each post */
+    padding: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* transition: transform 0.3s ease-in-out; */
+}
+
+.featured-post-link {
+    text-decoration: none;
+}
+
+.featured-post-image {
+    width: 100%;
+    /* Make the image responsive */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Info below the image */
+.featured-post-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+/* Styling for the post number and title */
+.featured-posts-container {
+    width: 100%;
+    /* Make the container span the full width */
+    max-width: 1200px;
+    /* Set a max width if needed */
+    margin: 0 auto;
+    /* Center the container */
+    padding: 20px;
+}
+
+/* Style for the container holding all featured posts */
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    /* Grid layout with responsive columns */
+    gap: 20px;
+    padding: 50px;
+    width: 100%;
+    max-width: 1200px;
+    /* Match the width of the header and content area */
+    margin: 0 auto;
+    /* Ensure the grid is centered */
+}
+
+/* Individual featured post styling */
+.featured-post {
+    background-color: transparent;
+    /* Dark background for each post */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 17px rgba(36, 50, 255, 0.97);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.featured-post:hover {
+    transform: translateY(-10px);
+    /* Hover effect to lift the post */
+    cursor: pointer;
+}
+
+.featured-post-image {
+    width: 100%;
+    /* Make the image responsive */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Info below the image */
+.featured-post-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+/* Styling for the post number and title */
+.post-number {
+    font-size: 35px;
+    font-weight: bold;
+    color: #acacac;
+    /* Orange color for the number */
+}
+
+.featured-post-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .featured-posts {
+        justify-content: center;
+    }
+}
