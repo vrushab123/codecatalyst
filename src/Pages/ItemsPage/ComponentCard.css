@@ -1,11 +1,7 @@
 /* ComponentCard.css */
 .component-card {
     background-color: transparent;
-<<<<<<< HEAD
-    box-shadow: 0 4px 8px 3px rgb(253 250 250);
-=======
     box-shadow: 0 4px 8px 3px rgb(5, 10, 255);
->>>>>>> 80a7479 (Updated with logo and many things)
     border-radius: 8px;
     padding: 20px;
     width: 100%;

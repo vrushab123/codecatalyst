@@ -16,7 +16,7 @@ const Navbar = () => {
                 <span></span>
             </button>
             <div className="logo">
-                <img src="/assets/logo.png" alt="Logo" /> {/* Replace with your logo */}
+                <img src="/assets/navicon.png" alt="Logo" /> {/* Replace with your logo */}
             </div>
             <ul className={`nav-links ${isOpen ? "active" : ""}`}>
                 <li><a href="/">HOME</a></li>

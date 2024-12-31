@@ -16,12 +16,6 @@ const BlogPage = () => {
                 </div>
                 <div className="blog-right">
                     <FollowBox />
-<<<<<<< HEAD
-                    <div className="animated-box">
-                        <p>Catchy Animated Content</p>
-                    </div>
-=======
->>>>>>> 80a7479 (Updated with logo and many things)
                 </div>
             </div>
             <Footer />
