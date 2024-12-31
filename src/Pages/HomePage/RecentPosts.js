@@ -1,10 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './RecentPosts.css';
-<<<<<<< HEAD
-=======
 import FollowBox from '../BlogPage/FollowBox';
->>>>>>> 80a7479 (Updated with logo and many things)
 
 // Sample data for featured posts
 const recentPostsData = [
@@ -55,21 +52,13 @@ const RecentPosts = () => {
                         </Link>
                     ))}
                 </div>
-<<<<<<< HEAD
-                <div class="follow-box">
-=======
                 <FollowBox />
                 {/* <div class="follow-box">
->>>>>>> 80a7479 (Updated with logo and many things)
                     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" />
                     <span class="username">@code_catalyst27</span>
                     <button class="follow-button">Follow Me</button>
                     <span class="additional-text">Stay updated with my latest posts!</span>
-<<<<<<< HEAD
-                </div>
-=======
                 </div> */}
->>>>>>> 80a7479 (Updated with logo and many things)
 
             </div>
         </section>
