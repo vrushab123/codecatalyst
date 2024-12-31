@@ -1,5 +1,9 @@
 /* Navbar container */
 .navbar {
+<<<<<<< HEAD
+=======
+    max-width: 97%;
+>>>>>>> 80a7479 (Updated with logo and many things)
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -104,8 +108,12 @@
 
 @media (max-width: 768px) {
     .navbar {
+<<<<<<< HEAD
         max-width: 107%;
 
+=======
+        max-width: 100%;
+>>>>>>> 80a7479 (Updated with logo and many things)
     }
 
     .nav-links {

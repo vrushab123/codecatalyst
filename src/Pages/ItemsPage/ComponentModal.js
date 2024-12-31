@@ -3,6 +3,10 @@ import "./ComponentModal.css";
 import LoaderModal from "../../components/LoaderModal";
 import Cards from "../../components/CardModal";
 import ButtonTypes from "../../components/ButtonTypes";
+<<<<<<< HEAD
+=======
+import Carousels from "../../components/Carousel";
+>>>>>>> 80a7479 (Updated with logo and many things)
 
 const ComponentModal = ({ content, closeModal }) => {
 
@@ -18,6 +22,11 @@ const ComponentModal = ({ content, closeModal }) => {
                 return <Cards />
             case "button":
                 return <ButtonTypes />
+<<<<<<< HEAD
+=======
+            case "carousel":
+                return <Carousels />
+>>>>>>> 80a7479 (Updated with logo and many things)
         }
     }
 

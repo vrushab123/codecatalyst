@@ -12,28 +12,44 @@ const ItemsPage = () => {
             id: 1,
             title: "Loader",
             description: "Various types of loaders like spinners, bars, and circles.",
+<<<<<<< HEAD
             img: "https://via.placeholder.com/150",
+=======
+            img: "/assets/loader.png",
+>>>>>>> 80a7479 (Updated with logo and many things)
             type: "loader",
         },
         {
             id: 2,
             title: "Card",
             description: "Simple and flexible card layouts with different designs.",
+<<<<<<< HEAD
             img: "https://via.placeholder.com/150",
+=======
+            img: "/assets/cards.png",
+>>>>>>> 80a7479 (Updated with logo and many things)
             type: "card",
         },
         {
             id: 3,
             title: "Carousel",
             description: "Create beautiful image sliders and carousels.",
+<<<<<<< HEAD
             img: "https://via.placeholder.com/150",
+=======
+            img: "/assets/carousels.jpg",
+>>>>>>> 80a7479 (Updated with logo and many things)
             type: "carousel",
         },
         {
             id: 4,
             title: "Button",
             description: "Create beautiful image sliders and carousels.",
+<<<<<<< HEAD
             img: "https://via.placeholder.com/150",
+=======
+            img: "/assets/buttons.jpg",
+>>>>>>> 80a7479 (Updated with logo and many things)
             type: "button",
         },
         // Add more components as needed

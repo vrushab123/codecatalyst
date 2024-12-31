@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .blog-follow-box {
     background-color: #ffffff;
     border: 2px solid #e6e6e6;
@@ -38,4 +39,75 @@
 
 .follow-button button:hover {
     background-color: #172db3;
+=======
+.follow-box {
+    margin-top: 47px;
+    flex-basis: 60%;
+    background-color: transparent;
+    border: 2px solid #e6e6e6;
+    border-radius: 12px;
+    padding: 56px 80px;
+    box-shadow: 0px 4px 12px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 19px;
+    max-width: 600px;
+}
+
+/* Instagram logo */
+.follow-box img {
+    width: 90px;
+    /* Slightly larger logo */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Username styling */
+.follow-box .username {
+    font-size: 20px;
+    /* Slightly larger font for emphasis */
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Follow button styling */
+.follow-box .follow-button {
+    padding: 12px 30px;
+    /* Larger button size */
+    background-color: #3897f0;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.follow-box .follow-button:hover {
+    background-color: #1c6dc1;
+    transform: translateY(-3px);
+}
+
+/* Additional text under the button */
+.follow-box .additional-text {
+    font-size: 16px;
+    /* Slightly larger text */
+    color: #999999;
+    margin-top: 10px;
+}
+
+
+/*Responsive adjustments */
+@media (max-width: 768px) {
+    .follow-box {
+        position: relative;
+        left: 195%;
+        right: 50%;
+        width: 100%;
+        max-width: 400px;
+    }
+>>>>>>> 80a7479 (Updated with logo and many things)
 }

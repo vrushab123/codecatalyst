@@ -22,7 +22,11 @@ const Navbar = () => {
                 <li><a href="/">HOME</a></li>
                 <li><a href="/blog">BLOG</a></li>
                 <li><a href="/items">ITEMS</a></li>
+<<<<<<< HEAD
                 <li><a href="#hire-us">HIRE US!</a></li>
+=======
+                <li><a href="#hire-us">WORK WITH US!</a></li>
+>>>>>>> 80a7479 (Updated with logo and many things)
                 <li><a href="/projects">PROJECTS</a></li>
             </ul>
         </nav>

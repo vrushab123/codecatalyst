@@ -1,6 +1,11 @@
 .modern-login-form {
+<<<<<<< HEAD
     max-width: 800px;
     margin: 20px auto;
+=======
+    max-width: 80%;
+    margin: 20px 20px;
+>>>>>>> 80a7479 (Updated with logo and many things)
     height: auto;
     overflow: hidden;
     overflow-y: scroll;

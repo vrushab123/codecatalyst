@@ -1,13 +1,25 @@
 .projects-container {
     padding: 40px;
+<<<<<<< HEAD
     background-color: transparent;
     height: 100vh;
+=======
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    height: 100vh;
+    align-items: center;
+>>>>>>> 80a7479 (Updated with logo and many things)
 }
 
 .projects-title {
     text-align: center;
     font-size: 2.5rem;
+<<<<<<< HEAD
     margin-bottom: 20px;
+=======
+    margin-bottom: 3%;
+>>>>>>> 80a7479 (Updated with logo and many things)
 }
 
 .projects-grid {
@@ -15,4 +27,8 @@
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
+<<<<<<< HEAD
+=======
+    width: 60%;
+>>>>>>> 80a7479 (Updated with logo and many things)
 }
